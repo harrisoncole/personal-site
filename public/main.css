@@ -125,8 +125,8 @@ table {
 /* font styles */
 
 body {
-  background: #293f50;
-  color: #888;
+  background: #527794;
+  color: rgb(58, 56, 56);
   font: 300 16px/22px 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
 }
@@ -141,10 +141,36 @@ body {
   box-sizing: border-box;
 }
 
-nav {
-  margin-left: 20px;
+.container-home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
 }
 
-nav:nth-child(2) {
-  margin: 0 10px;
+#home {
+  font-family: 'Open Sans';
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+#home,
+.background {
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 1.2em;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
