@@ -125,8 +125,9 @@ table {
 /* font styles */
 
 body {
-  background: #527794;
+  background: #1e6295;
   color: rgb(58, 56, 56);
+  color: black;
   font: 300 16px/22px 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
 }
@@ -141,16 +142,26 @@ body {
   box-sizing: border-box;
 }
 
+/* body {
+  background-image: url('turtle.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
 .container-home {
+  background-image: url('turtle.jpg');
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  height: 400px;
+  height: 750px;
 }
 
 #home {
   font-family: 'Open Sans';
   font-size: 3em;
+  margin-top: 100px;
   margin-bottom: 30px;
 }
 
