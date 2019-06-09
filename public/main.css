@@ -189,3 +189,22 @@ a {
 .container-projects {
   height: 800px;
 }
+
+.flex-container {
+  display: flex;
+  margin: 20px;
+}
+
+#diveBook-img {
+  height: 400px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+p.diveBook {
+  padding: 0 200px;
+}
+
+h2.diveBook {
+  text-align: center;
+}
