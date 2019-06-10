@@ -192,17 +192,18 @@ a {
 
 .flex-container {
   display: flex;
-  margin: 20px;
+  margin: 20px 250px;
 }
 
 #diveBook-img {
   height: 400px;
   margin-left: 20px;
   padding: 10px;
+  padding-top: 0;
 }
 
 p.diveBook {
-  padding: 0 200px;
+  padding-bottom: 10px;
 }
 
 h2.diveBook {
