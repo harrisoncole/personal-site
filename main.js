@@ -14,6 +14,13 @@ function projectBarFncGenerator() {
   return createProjectBar;
 }
 
+const body = document.querySelector('.container-home');
+const loadMsg = document.querySelector('.loading');
+
+function loadConfirm() {
+  body.removeChild(loadMsg);
+}
+
 // const createProjectBar = projectBarFncGenerator();
 // const projects = document.getElementById('projects');
 

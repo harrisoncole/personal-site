@@ -10,23 +10,29 @@
     />
     <link rel="stylesheet" href="main.css" />
     <script src="https://kit.fontawesome.com/8eea9cbd33.js"></script>
+    <script src="main.js" defer></script>
     <title>Harrison Cole</title>
   </head>
-  <body class="container-home">
-    <h1 id="home">Harrison Cole</h1>
-    <p class="background">
-      👋Hi! <br />I am a software developer living in NYC.<br />
-      I like to spend time in nature and write code but not at the same time.
-    </p>
-    <nav class="navbar">
-      <a href="https://github.com/harrisoncole"
-        ><i class="fab fa-github icon"></i
-      ></a>
-      <a href="https://www.linkedin.com/in/harrison-d-cole/"
-        ><i class="fab fa-linkedin icon"></i>
-      </a>
+  <body class="container-home" onload="loadConfirm()">
+    <div class="flex-container">
+      <h1 id="home">Harrison Cole</h1>
+      <p class="background">
+        👋Hi! <br />I am a software developer living in NYC.<br />
+        I like to spend time in nature and write code but not at the same time.
+      </p>
+      <nav class="navbar">
+        <a href="https://github.com/harrisoncole"
+          ><i class="fab fa-github icon"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/harrison-d-cole/"
+          ><i class="fab fa-linkedin icon"></i>
+        </a>
 
-      <a href="Harrison-Cole-resume.pdf"> Resume </a>
-    </nav>
+        <a href="Harrison-Cole-resume.pdf"> Resume </a>
+      </nav>
+    </div>
+    <div class="loading">
+      un momento...
+    </div>
   </body>
 </html>

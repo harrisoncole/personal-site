@@ -147,10 +147,17 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.flex-container {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   height: 750px;
+}
+
+.loading {
+  text-align: center;
 }
 
 #home {
