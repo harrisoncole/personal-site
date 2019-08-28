@@ -125,7 +125,6 @@ table {
 /* font styles */
 
 body {
-  background: #1e6295;
   background: black;
   color: white;
   font: 300 16px/22px 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
@@ -143,7 +142,7 @@ body {
 }
 
 .container-home {
-  background: url('rinjani.jpg') no-repeat center center fixed;
+  background: url('rinjani.jpg') center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
