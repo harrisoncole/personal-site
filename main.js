@@ -19,6 +19,7 @@ const loadMsg = document.querySelector('.loading');
 
 function loadConfirm() {
   body.removeChild(loadMsg);
+  console.log('loaded');
 }
 
 // const createProjectBar = projectBarFncGenerator();
