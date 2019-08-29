@@ -14,11 +14,14 @@ function projectBarFncGenerator() {
   return createProjectBar;
 }
 
-const body = document.querySelector('.container-home');
+const body = document.querySelector('.pre-load-body');
+const flex = document.querySelector('.pre-load-flex');
 const loadMsg = document.querySelector('.loading');
 
 function loadConfirm() {
   body.removeChild(loadMsg);
+  body.className = 'container-home';
+  flex.className = 'flex-container';
 }
 
 // const createProjectBar = projectBarFncGenerator();
