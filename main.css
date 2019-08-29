@@ -125,7 +125,7 @@ table {
 /* font styles */
 
 body {
-  background: black;
+  background-color: black;
   color: white;
   font: 300 16px/22px 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
@@ -151,9 +151,10 @@ body {
 
 .flex-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
-  height: 750px;
+  height: 100%;
+  width: 100vw;
 }
 
 .loading {
@@ -194,11 +195,6 @@ a {
 
 .container-projects {
   height: 800px;
-}
-
-.flex-container {
-  display: flex;
-  margin: 20px 250px;
 }
 
 #diveBook-img {
